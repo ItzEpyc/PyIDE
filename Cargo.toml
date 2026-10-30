@@ -1,0 +1,12 @@
+[package]
+name = "pyide"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pyide"
+path = "main.rs"
+
+[dependencies]
+eframe = "0.31"
+rfd = "0.15"
